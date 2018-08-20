@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1534790711540" clover="3.2.0">
+  <project timestamp="1534790711541" name="All files">
+    <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0" elements="4" coveredelements="0" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1">
+      <file name="App.jsx" path="/Users/christian.todd/Development/react-testing-lib/src/components/App.jsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>
