@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ReusableButton from './ReusableButton';
+import {ReusableButton} from './ReusableButton';
 
 export class App extends Component {
   state = { count: 0 };

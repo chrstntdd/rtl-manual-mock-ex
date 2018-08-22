@@ -3,19 +3,19 @@ import 'jest-dom/extend-expect';
 import { render, cleanup, fireEvent } from 'react-testing-library';
 
 import App from './App';
-import ReusableButton from './ReusableButton';
+import {ReusableButton} from './ReusableButton';
 
 // This doesn't work
-// jest.mock('./ReusableButton');
+jest.mock('./ReusableButton');
 
 // This works
-jest.mock('./ReusableButton', () =>
-  jest.fn(({ onClick, buttonLabel }) => (
-    <button data-testid="mock-button" onClick={onClick}>
-      {buttonLabel}
-    </button>
-  ))
-);
+// jest.mock('./ReusableButton', () =>
+//   jest.fn(({ onClick, buttonLabel }) => (
+//     <button data-testid="mock-button" onClick={onClick}>
+//       {buttonLabel}
+//     </button>
+//   ))
+// );
 
 afterEach(cleanup);
 
